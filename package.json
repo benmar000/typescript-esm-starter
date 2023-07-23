@@ -7,7 +7,11 @@
   "license": "MIT",
   "private": false,
   "type": "module",
+  "scripts": {
+    "ts-run": "node --loader ts-node/esm --trace-warnings --no-warnings --es-module-specifier-resolution node"
+  },
   "devDependencies": {
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   }
 }
