@@ -1,0 +1,9 @@
+{
+  "name": "typescript-esm-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/benmar000/typescript-esm-starter.git",
+  "author": "Benjamin Martinez <benmar000@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
