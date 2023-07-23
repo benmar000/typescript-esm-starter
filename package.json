@@ -5,5 +5,9 @@
   "repository": "https://github.com/benmar000/typescript-esm-starter.git",
   "author": "Benjamin Martinez <benmar000@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
