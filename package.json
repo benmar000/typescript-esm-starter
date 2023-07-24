@@ -8,9 +8,17 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "ts-run": "node --loader ts-node/esm --trace-warnings --no-warnings --es-module-specifier-resolution node"
+    "ts-run": "node --loader ts-node/esm --trace-warnings --no-warnings --es-module-specifier-resolution node",
+    "format": "yarn lint:fix"
   },
   "devDependencies": {
+    "@types/node": "^20.4.4",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   }
